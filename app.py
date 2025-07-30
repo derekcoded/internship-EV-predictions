@@ -1,10 +1,15 @@
+import requests
 from streamlit_lottie import st_lottie
-import json
 
-def load_lottiefile(filepath: str):
-    with open(filepath, "r") as f:
-        return json.load(f)
-# Load the lottie animation
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+lottie_ev = load_lottieurl("https://lottie.host/edc0e445-68f5-48cb-91e3-4d83f5488fe7/cWrKf4LQbT.json")
+st_lottie(lottie_ev, speed=1, loop=True, quality="high", height=300)
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -38,10 +43,6 @@ st.markdown("""
         🔮 EV Adoption Forecaster for a County in Washington State
     </div>
 """, unsafe_allow_html=True)
-
-lottie_ev = load_lottiefile("animations/ev-charging.json")  # adjust path as needed
-st_lottie(lottie_ev, speed=1, loop=True, quality="high", height=300)
-
 
 # Welcome subtitle
 st.markdown("""
