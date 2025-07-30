@@ -1,14 +1,3 @@
-import requests
-from streamlit_lottie import st_lottie
-
-def load_lottieurl(url: str):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-
-lottie_ev = load_lottieurl("https://lottie.host/edc0e445-68f5-48cb-91e3-4d83f5488fe7/cWrKf4LQbT.json")
-st_lottie(lottie_ev, speed=1, loop=True, quality="high", height=300)
 
 import streamlit as st
 import pandas as pd
