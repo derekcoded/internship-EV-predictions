@@ -1,50 +1,48 @@
 edunet internship-2025
-done  
 
+# ⚡ EV Predictions - Internship Project
 
-⚡ EV Predictions - Internship Project
+An end-to-end **Machine Learning project** focused on analyzing and predicting Electric Vehicle (EV) trends using data-driven techniques. This project demonstrates a complete data science workflow including data preprocessing, exploratory analysis, model building, and prediction.
 
-An end-to-end Machine Learning project focused on analyzing and predicting Electric Vehicle (EV) trends using data-driven techniques. This project demonstrates a complete data science workflow including data preprocessing, exploratory analysis, model building, and prediction.
+---
 
-🚀 Project Overview
+## 🚀 Project Overview
 
 With the increasing adoption of electric vehicles, predicting EV trends is important for:
 
-🔋 Infrastructure planning
-
-📊 Market analysis
-
-🌱 Sustainable development
+- 🔋 Infrastructure planning  
+- 📊 Market analysis  
+- 🌱 Sustainable development  
 
 This project uses historical data and machine learning models to identify patterns and forecast future EV trends.
+Live demo url: https://derekcoded-internship-ev-predictions-app-a2gfoy.streamlit.app/
 
-✨ Features
+---
 
-📊 Exploratory Data Analysis (EDA)
+## ✨ Features
 
-🧹 Data Cleaning & Preprocessing
+- 📊 Exploratory Data Analysis (EDA)  
+- 🧹 Data Cleaning & Preprocessing  
+- 📈 Data Visualization  
+- 🤖 Machine Learning Model Training  
+- 📉 Predictions & Evaluation  
 
-📈 Data Visualization
+---
 
-🤖 Machine Learning Model Training
+## 🛠️ Tech Stack
 
-📉 Predictions & Evaluation
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib / Seaborn**
+- **Scikit-learn**
+- **Jupyter Notebook**
 
-🛠️ Tech Stack
+---
 
-Python
+## 📂 Project Structure
 
-Pandas
-
-NumPy
-
-Matplotlib / Seaborn
-
-Scikit-learn
-
-Jupyter Notebook
-
-📂 Project Structure
+```
 internship-EV-predictions/
 │
 ├── data/                # Dataset files
@@ -52,66 +50,85 @@ internship-EV-predictions/
 ├── images/              # Visualizations (if added)
 ├── requirements.txt     # Dependencies
 └── README.md
-⚙️ Installation & Setup
-1. Clone the repository
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/derekcoded/internship-EV-predictions.git
 cd internship-EV-predictions
-2. Install dependencies
+```
+
+---
+
+### 2. Install dependencies
+
+```bash
 pip install -r requirements.txt
-3. Run the project
+```
+
+---
+
+### 3. Run the project
+
+```bash
 jupyter notebook
+```
 
 Open the notebook and run all cells step-by-step.
 
-📊 Workflow
+---
 
-Data Collection
+## 📊 Workflow
 
-Data Cleaning
+1. Data Collection  
+2. Data Cleaning  
+3. Exploratory Data Analysis  
+4. Feature Engineering  
+5. Model Training  
+6. Prediction & Evaluation  
 
-Exploratory Data Analysis
+---
 
-Feature Engineering
+## 📈 Results
 
-Model Training
+- Identified trends in EV adoption  
+- Built predictive models for forecasting  
+- Visualized patterns for better insights  
 
-Prediction & Evaluation
+---
 
-📈 Results
+## 📌 Future Improvements
 
-Identified trends in EV adoption
+- Add advanced ML models (XGBoost, LSTM)  
+- Deploy as a web application (Streamlit)  
+- Integrate real-time datasets  
+- Build an interactive dashboard  
 
-Built predictive models for forecasting
+---
 
-Visualized patterns for better insights
-
-📌 Future Improvements
-
-Add advanced ML models (XGBoost, LSTM)
-
-Deploy as a web application (Streamlit)
-
-Integrate real-time datasets
-
-Build an interactive dashboard
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the repository
+1. Fork the repository  
+2. Create a new branch  
+3. Make changes  
+4. Submit a pull request  
 
-Create a new branch
+---
 
-Make changes
+## 👨‍💻 Author
 
-Submit a pull request
+**Derekcoded**  
+https://github.com/derekcoded  
 
-👨‍💻 Author
+---
 
-Derekcoded
-https://github.com/derekcoded
-
-⭐ Support
+## ⭐ Support
 
 If you found this project helpful, give it a ⭐ on GitHub!
